@@ -1,0 +1,39 @@
+
+div.airportifyUpperPart{
+    margin-bottom: 0;
+    height: 13px;
+}
+
+div.airportifyLowerPart{
+    margin-top: 0;
+    height: 13px;
+}
+
+div.airportifyRow{
+    margin-bottom: 1px;
+    height: 26px;
+    position: relative;    
+}
+
+div.airportifyBackPart, div.airportifyFrontPart{
+    position: absolute;
+    top: 0;
+}
+
+.airportifyImg{
+    margin-right: 1px;
+    height: 13px;
+    width: 26px;
+    position: relative;
+}
+
+.airportifyFrontPart .airportifyUpperPart .airportifyImg{
+    bottom: 0;
+}
+
+.airportifyFrontPart .airportifyLowerPart .airportifyImg{
+    height: 0;
+    width: 26px;
+    vertical-align:top;
+}
+
