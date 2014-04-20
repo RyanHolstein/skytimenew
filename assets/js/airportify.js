@@ -267,8 +267,8 @@
         imgLocation: 'assets/img/',
         autoStart:false,
         autoResize:false,
-        animationSpeed: 40,
-        flickerSpeed:5
+        animationSpeed: 100,
+        flickerSpeed:50
     };
     $.fn.airportify.settings={};
 	$.fn.airportify.specialCharCode=[32,33,46,44,58,59,63,47,92,43,45,42,40,41,60,62,39,34,95,61];
